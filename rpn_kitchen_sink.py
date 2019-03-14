@@ -125,6 +125,7 @@ class Calculator:
             '-': operator.sub,
             '*': operator.mul,
             '/': operator.truediv,
+            '^': operator.carat,
             }
 
 
@@ -224,4 +225,3 @@ def main():
 # This lets your program act as both a _script_ and a _module_
 if __name__ == '__main__':
     main()
-
